@@ -2,29 +2,26 @@
 
 /* Code comment style */
 .mtk3 {
-    font-family: 'Monaspace Radon', monospace !important;
     color: #808080 !important;
 }
 
 .line-numbers {
     position: relative !important;
     width: 35px !important;
-    font-size: 16px !important;
+    font-size: 12px !important;
     /* font-family: 'Geist Mono' !important; */
     opacity: 1;
 }
 
-/* Code canvas top shadow
-.monaco-editor .scroll-decoration {
+/* Code canvas top shadow */
+/* .monaco-editor .scroll-decoration {
     box-shadow: 0px 0px 20px rgba(0, 0, 0, .75) !important;
-    top: -6px !important;
-}
-    */
+    top: -6px !important;https://github.com/candidatecollective-eng/dashboard/actions/runs/10619273581/job/29436783121
 
 /* Toolbars when tabs are enabled. */
-.monaco-workbench .part.editor>.content .editor-group-container>.title .editor-actions {
+/* .monaco-workbench .part.editor>.content .editor-group-container>.title .editor-actions {
     display: none !important;
-}
+} */
 
 /* Side bar */
 .part.sidebar {
@@ -33,10 +30,10 @@
 
 /* File Explorer Selected Item */
 .monaco-list.list_id_1 .monaco-list-row.selected {
-    background-color: #4f5971 !important;
+    background-color: #000000 !important;
     opacity: 1 !important;
-    border-top: 1px #727b90 solid;
-    border-bottom: 1px #727b90 solid;
+    border-top: 1px #FFFFFF solid;
+    border-bottom: 1px #FFFFFF solid;
 }
 
 /* List item label name */
@@ -54,8 +51,8 @@
 .monaco-tree .monaco-tree-row .label-name,
 .monaco-list .monaco-list-row
 .monaco-icon-label .label-name {
-    font-family: 'Geist Mono', monospace !important;
-    font-size: 14px !important;
+    /* font-family: 'Geist Mono', monospace !important; */
+    font-size: 12px !important;
     font-weight: 400 !important;
     color: #FFF !important;
 }
@@ -75,15 +72,15 @@
 }
 .composite.title h2 {
     font-weight: bold !important;
-    font-size: 12px !important;
+    font-size: 14px !important;
     text-transform: uppercase;
-    color: #bc9abc !important;
 }
 
 .composite.title h2::before {
     display: inline-block;
     margin-right: 6px;
     font-size: 1.1rem;
+    /* content: '?'; */
     /* content: '🔍'; */
 }
 
@@ -105,7 +102,8 @@
 .monaco-hover {
     box-shadow: 0px 8px 32px rgba(0,0,0,.45) !important;
     padding: 10px !important;
-    background-image: linear-gradient(#3c3c50 0%, #2a2b38 100%) !important;
+    background-image: linear-gradient(#2a2b38 0%, #000000 100%) !important;
+    opacity: 0.80;
     backdrop-filter: blur(3px) !important;
     border-radius: 20px !important;
     border: none !important
@@ -127,7 +125,7 @@
 /* Search Label */
 .search-label {
     /* font-family: 'Geist Mono' !important; */
-    font-size: 14px !important;
+    font-size: 12px !important;
     color: #fff;
     display: block;
 }
@@ -155,8 +153,8 @@
     top: 50% !important;
     box-shadow: 0px 8px 20px rgba(0, 0, 0, .45) !important;
     padding: 10px 10px 18px 10px !important;
-    background-image: linear-gradient(#3c3c50 50%, #808080 100%) !important;
-    opacity: 1;
+    background-image: linear-gradient(#2a2b38 0%, #000000 100%) !important;
+    opacity: 0.80;
     backdrop-filter: blur(3px) !important;
     border-radius: 20px !important;
 }
